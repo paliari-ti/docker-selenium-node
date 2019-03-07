@@ -25,4 +25,9 @@ RUN apt-get update -y && \
     npm install -g yarn && \
     export PATH="$(yarn global bin):$PATH"
 
+RUN apt-get remove wget -y && \
+    apt-get remove unzip  -y && \
+    apt-get autoremove -y && \
+    apt-get autoclean -y
+
 EXPOSE 8080
