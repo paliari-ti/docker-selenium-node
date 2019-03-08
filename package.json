@@ -1,6 +1,6 @@
 {
   "name": "docker-selenium-node",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "git@github.com:paliari-ti/docker-selenium-node.git",
   "author": "Felipe Bohnert Paetzold <felipe.paetzold@gmail.com>",
